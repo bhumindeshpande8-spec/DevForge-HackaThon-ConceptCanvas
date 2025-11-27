@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ConceptCanvas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Left: prompt + controls -->
+    <section id="left-panel">
+      <h1>ConceptCanvas</h1>
+
+      <label for="prompt-input" class="label">Describe the animation</label>
+      <textarea id="prompt-input" rows="6"
+        placeholder="Example: Animate a right triangle and show the Pythagoras theorem step by step."></textarea>
+
+      <div id="presets">
+        <span class="label">Quick prompts:</span>
+        <button class="preset-btn">Pythagoras theorem</button>
+        <button class="preset-btn">Bubble sort visualization</button>
+        <button class="preset-btn">Complex numbers on Argand plane</button>
+        <button class="preset-btn">Eigenvectors and eigenvalues</button>
+      </div>
+
+      <button id="generate-btn">Generate Animation</button>
+
+      <div id="message-box"></div>
+    </section>
+
+    <!-- Right: code + preview placeholder -->
+    <!-- <section id="right-panel">
+      <div id="code-container">
+        <h2>Generated Manim Code</h2>
+        <pre id="code-output">
+# Generated code will appear here
+        </pre>
+      </div> -->
+
+      <div id="preview-container">
+        <h2>Rendered Preview</h2>
+        <div id="preview-box">
+          <p class="hint">
+            When wired to your backend, this area can show a thumbnail, GIF, or video of the rendered Manim scene.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
