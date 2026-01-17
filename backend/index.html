@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ConceptCanvas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <section id="left-panel">
+      <h1>ConceptCanvas</h1>
+
+      <label for="prompt-input" class="label">Describe the animation</label>
+      <textarea id="prompt-input" rows="6"
+        placeholder="Example: Animate a right triangle and show the Pythagoras theorem step by step."></textarea>
+
+      <!-- Preset prompts -->
+      <div id="presets">
+        <span class="label">Quick prompts:</span>
+        <button class="preset-btn" data-prompt="Animate a right triangle and visually demonstrate the Pythagoras theorem with growing squares on each side.">
+          Pythagoras theorem
+        </button>
+        <button class="preset-btn" data-prompt="Visualize bubble sort on an array of colored bars, highlighting comparisons and swaps step by step.">
+          Bubble sort
+        </button>
+        <button class="preset-btn" data-prompt="Show complex numbers as points and arrows on the Argand plane, then animate multiplication as rotation and scaling.">
+          Complex numbers
+        </button>
+        <button class="preset-btn" data-prompt="Explain eigenvectors and eigenvalues by animating a linear transformation grid and highlighting invariant directions.">
+          Eigenvectors
+        </button>
+      </div>
+
+      <button id="generate-btn">Generate Manim Animation</button>
+      <div id="status"></div>
+    </section>
+
+    <section id="right-panel">
+      <div id="code-container">
+        <h2>Generated Manim Code</h2>
+        <pre id="code-output">
+# Manim code will appear here
+        </pre>
+      </div>
+
+      <div id="preview-container">
+        <h2>Rendered Preview</h2>
+        <div id="preview-box">
+          <video id="preview-video" controls></video>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

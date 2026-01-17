@@ -1,0 +1,2140 @@
+[
+  {
+    "input": {
+      "type": "text",
+      "color": "GREEN",
+      "action": "move_right",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "text = Text(\"GREEN Text\", color=GREEN)\nself.play(text.animate.shift(RIGHT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "YELLOW",
+      "action": "create",
+      "parameters": {
+        "content": "YELLOW text"
+      }
+    },
+    "output": "text = Text(\"YELLOW text\", color=YELLOW)\nself.play(Create(text))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "RED",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "triangle = Triangle(color=RED)\nself.play(triangle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "RED",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "square = Square(color=RED)\nself.play(Create(square))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "RED",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "square = Square(color=RED)\nself.play(square.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "ORANGE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "square = Square(color=ORANGE)\nself.play(square.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "RED",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "square = Square(color=RED)\nself.play(square.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "BLUE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "square = Square(color=BLUE)\nself.play(square.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "ORANGE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 3.14
+      }
+    },
+    "output": "text = Text(\"ORANGE Text\", color=ORANGE)\nself.play(text.animate.rotate(3.14))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "YELLOW",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "square = Square(color=YELLOW)\nself.play(square.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "PURPLE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "triangle = Triangle(color=PURPLE)\nself.play(triangle.animate.shift(RIGHT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 0.785
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.rotate(0.785))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "RED",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "square = Square(color=RED)\nself.play(square.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(square.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(Create(triangle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "PURPLE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "text = Text(\"PURPLE Text\", color=PURPLE)\nself.play(text.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(square.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "text = Text(\"GREEN Text\", color=GREEN)\nself.play(text.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "ORANGE",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "triangle = Triangle(color=ORANGE)\nself.play(Create(triangle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 3.14
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.rotate(3.14))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "RED",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "text = Text(\"RED Text\", color=RED)\nself.play(text.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "RED",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "square = Square(color=RED)\nself.play(Create(square))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(square.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "RED",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "triangle = Triangle(color=RED)\nself.play(Create(triangle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "YELLOW",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "circle = Circle(color=YELLOW)\nself.play(Create(circle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "ORANGE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "triangle = Triangle(color=ORANGE)\nself.play(triangle.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "rotate",
+      "parameters": {
+        "angle": 1.57
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.rotate(1.57))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(square.animate.shift(RIGHT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "PURPLE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "circle = Circle(color=PURPLE)\nself.play(circle.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "RED",
+      "action": "rotate",
+      "parameters": {
+        "angle": 0.785
+      }
+    },
+    "output": "square = Square(color=RED)\nself.play(square.animate.rotate(0.785))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "YELLOW",
+      "action": "move_right",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "text = Text(\"YELLOW Text\", color=YELLOW)\nself.play(text.animate.shift(RIGHT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "GREEN",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "circle = Circle(color=GREEN)\nself.play(Create(circle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.shift(RIGHT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "PURPLE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "text = Text(\"PURPLE Text\", color=PURPLE)\nself.play(text.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "BLUE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "square = Square(color=BLUE)\nself.play(square.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "BLUE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "circle = Circle(color=BLUE)\nself.play(circle.animate.shift(RIGHT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "ORANGE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "triangle = Triangle(color=ORANGE)\nself.play(triangle.animate.shift(RIGHT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "ORANGE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "triangle = Triangle(color=ORANGE)\nself.play(triangle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "YELLOW",
+      "action": "rotate",
+      "parameters": {
+        "angle": 1.57
+      }
+    },
+    "output": "triangle = Triangle(color=YELLOW)\nself.play(triangle.animate.rotate(1.57))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "YELLOW",
+      "action": "rotate",
+      "parameters": {
+        "angle": 1.57
+      }
+    },
+    "output": "triangle = Triangle(color=YELLOW)\nself.play(triangle.animate.rotate(1.57))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "ORANGE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 3.14
+      }
+    },
+    "output": "text = Text(\"ORANGE Text\", color=ORANGE)\nself.play(text.animate.rotate(3.14))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "RED",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "triangle = Triangle(color=RED)\nself.play(triangle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "text = Text(\"GREEN Text\", color=GREEN)\nself.play(text.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "YELLOW",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "triangle = Triangle(color=YELLOW)\nself.play(Create(triangle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "YELLOW",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "circle = Circle(color=YELLOW)\nself.play(circle.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "RED",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "triangle = Triangle(color=RED)\nself.play(triangle.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "ORANGE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "text = Text(\"ORANGE Text\", color=ORANGE)\nself.play(text.animate.shift(LEFT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "RED",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "triangle = Triangle(color=RED)\nself.play(triangle.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "RED",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "text = Text(\"RED Text\", color=RED)\nself.play(text.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "GREEN",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "circle = Circle(color=GREEN)\nself.play(Create(circle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "ORANGE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "text = Text(\"ORANGE Text\", color=ORANGE)\nself.play(text.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(Create(square))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "PURPLE",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "triangle = Triangle(color=PURPLE)\nself.play(Create(triangle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(square.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "RED",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "circle = Circle(color=RED)\nself.play(Create(circle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "YELLOW",
+      "action": "move_left",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "text = Text(\"YELLOW Text\", color=YELLOW)\nself.play(text.animate.shift(LEFT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(square.animate.shift(RIGHT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.shift(LEFT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(Create(square))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "ORANGE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "circle = Circle(color=ORANGE)\nself.play(circle.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "YELLOW",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "circle = Circle(color=YELLOW)\nself.play(Create(circle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "RED",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "triangle = Triangle(color=RED)\nself.play(triangle.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "circle = Circle(color=GREEN)\nself.play(circle.animate.shift(LEFT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "BLUE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "square = Square(color=BLUE)\nself.play(square.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "GREEN",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "circle = Circle(color=GREEN)\nself.play(Create(circle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "ORANGE",
+      "action": "create",
+      "parameters": {
+        "content": "ORANGE text"
+      }
+    },
+    "output": "text = Text(\"ORANGE text\", color=ORANGE)\nself.play(Create(text))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "RED",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "text = Text(\"RED Text\", color=RED)\nself.play(text.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(Create(triangle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "PURPLE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "circle = Circle(color=PURPLE)\nself.play(circle.animate.shift(RIGHT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "YELLOW",
+      "action": "move_right",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "triangle = Triangle(color=YELLOW)\nself.play(triangle.animate.shift(RIGHT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(square.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "ORANGE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "text = Text(\"ORANGE Text\", color=ORANGE)\nself.play(text.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "BLUE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "circle = Circle(color=BLUE)\nself.play(circle.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.shift(LEFT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "ORANGE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "text = Text(\"ORANGE Text\", color=ORANGE)\nself.play(text.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "ORANGE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 0.785
+      }
+    },
+    "output": "square = Square(color=ORANGE)\nself.play(square.animate.rotate(0.785))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "circle = Circle(color=GREEN)\nself.play(circle.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "PURPLE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "circle = Circle(color=PURPLE)\nself.play(circle.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "GREEN",
+      "action": "move_right",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "circle = Circle(color=GREEN)\nself.play(circle.animate.shift(RIGHT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "PURPLE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "text = Text(\"PURPLE Text\", color=PURPLE)\nself.play(text.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "RED",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "triangle = Triangle(color=RED)\nself.play(triangle.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "RED",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "square = Square(color=RED)\nself.play(Create(square))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "RED",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "text = Text(\"RED Text\", color=RED)\nself.play(text.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "RED",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "circle = Circle(color=RED)\nself.play(circle.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "YELLOW",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "text = Text(\"YELLOW Text\", color=YELLOW)\nself.play(text.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "ORANGE",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "square = Square(color=ORANGE)\nself.play(Create(square))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "GREEN",
+      "action": "move_right",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "circle = Circle(color=GREEN)\nself.play(circle.animate.shift(RIGHT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "RED",
+      "action": "move_right",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "square = Square(color=RED)\nself.play(square.animate.shift(RIGHT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "ORANGE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "square = Square(color=ORANGE)\nself.play(square.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.shift(LEFT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "RED",
+      "action": "create",
+      "parameters": {
+        "content": "RED text"
+      }
+    },
+    "output": "text = Text(\"RED text\", color=RED)\nself.play(Create(text))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "PURPLE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "circle = Circle(color=PURPLE)\nself.play(circle.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "RED",
+      "action": "rotate",
+      "parameters": {
+        "angle": 3.14
+      }
+    },
+    "output": "square = Square(color=RED)\nself.play(square.animate.rotate(3.14))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "YELLOW",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "circle = Circle(color=YELLOW)\nself.play(Create(circle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "YELLOW",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "circle = Circle(color=YELLOW)\nself.play(circle.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 1.57
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.rotate(1.57))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "PURPLE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "triangle = Triangle(color=PURPLE)\nself.play(triangle.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "YELLOW",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "square = Square(color=YELLOW)\nself.play(Create(square))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "RED",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "circle = Circle(color=RED)\nself.play(circle.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "rotate",
+      "parameters": {
+        "angle": 1.57
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.rotate(1.57))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "circle = Circle(color=GREEN)\nself.play(circle.animate.shift(LEFT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "RED",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "square = Square(color=RED)\nself.play(square.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "YELLOW",
+      "action": "rotate",
+      "parameters": {
+        "angle": 3.14
+      }
+    },
+    "output": "text = Text(\"YELLOW Text\", color=YELLOW)\nself.play(text.animate.rotate(3.14))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "YELLOW",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "square = Square(color=YELLOW)\nself.play(Create(square))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "GREEN",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "circle = Circle(color=GREEN)\nself.play(circle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "YELLOW",
+      "action": "rotate",
+      "parameters": {
+        "angle": 3.14
+      }
+    },
+    "output": "square = Square(color=YELLOW)\nself.play(square.animate.rotate(3.14))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "YELLOW",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "square = Square(color=YELLOW)\nself.play(Create(square))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "GREEN",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "square = Square(color=GREEN)\nself.play(square.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "GREEN",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "square = Square(color=GREEN)\nself.play(square.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "PURPLE",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "triangle = Triangle(color=PURPLE)\nself.play(Create(triangle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.shift(LEFT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "YELLOW",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "circle = Circle(color=YELLOW)\nself.play(Create(circle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "PURPLE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "triangle = Triangle(color=PURPLE)\nself.play(triangle.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "BLUE",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "circle = Circle(color=BLUE)\nself.play(Create(circle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "GREEN",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "text = Text(\"GREEN Text\", color=GREEN)\nself.play(text.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "BLUE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 1.57
+      }
+    },
+    "output": "circle = Circle(color=BLUE)\nself.play(circle.animate.rotate(1.57))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "BLUE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 1.57
+      }
+    },
+    "output": "circle = Circle(color=BLUE)\nself.play(circle.animate.rotate(1.57))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "ORANGE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "square = Square(color=ORANGE)\nself.play(square.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "YELLOW",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "triangle = Triangle(color=YELLOW)\nself.play(triangle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 1.57
+      }
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(square.animate.rotate(1.57))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "GREEN",
+      "action": "move_right",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "text = Text(\"GREEN Text\", color=GREEN)\nself.play(text.animate.shift(RIGHT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "ORANGE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "square = Square(color=ORANGE)\nself.play(square.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "ORANGE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "square = Square(color=ORANGE)\nself.play(square.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "ORANGE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "circle = Circle(color=ORANGE)\nself.play(circle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "PURPLE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "text = Text(\"PURPLE Text\", color=PURPLE)\nself.play(text.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.shift(LEFT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "RED",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "triangle = Triangle(color=RED)\nself.play(triangle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "GREEN",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "square = Square(color=GREEN)\nself.play(square.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "BLUE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "square = Square(color=BLUE)\nself.play(square.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "ORANGE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "text = Text(\"ORANGE Text\", color=ORANGE)\nself.play(text.animate.shift(LEFT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "BLUE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "square = Square(color=BLUE)\nself.play(square.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "PURPLE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 1.57
+      }
+    },
+    "output": "circle = Circle(color=PURPLE)\nself.play(circle.animate.rotate(1.57))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "RED",
+      "action": "create",
+      "parameters": {
+        "content": "RED text"
+      }
+    },
+    "output": "text = Text(\"RED text\", color=RED)\nself.play(Create(text))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "create",
+      "parameters": {
+        "content": "BLUE text"
+      }
+    },
+    "output": "text = Text(\"BLUE text\", color=BLUE)\nself.play(Create(text))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "YELLOW",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "circle = Circle(color=YELLOW)\nself.play(circle.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "RED",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "circle = Circle(color=RED)\nself.play(Create(circle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "circle = Circle(color=GREEN)\nself.play(circle.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "YELLOW",
+      "action": "create",
+      "parameters": {
+        "content": "YELLOW text"
+      }
+    },
+    "output": "text = Text(\"YELLOW text\", color=YELLOW)\nself.play(Create(text))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "PURPLE",
+      "action": "create",
+      "parameters": {
+        "content": "PURPLE text"
+      }
+    },
+    "output": "text = Text(\"PURPLE text\", color=PURPLE)\nself.play(Create(text))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(square.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "ORANGE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "triangle = Triangle(color=ORANGE)\nself.play(triangle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "PURPLE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "circle = Circle(color=PURPLE)\nself.play(circle.animate.shift(RIGHT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "PURPLE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "triangle = Triangle(color=PURPLE)\nself.play(triangle.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(Create(triangle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "YELLOW",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "triangle = Triangle(color=YELLOW)\nself.play(triangle.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "RED",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "text = Text(\"RED Text\", color=RED)\nself.play(text.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "ORANGE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 3.14
+      }
+    },
+    "output": "triangle = Triangle(color=ORANGE)\nself.play(triangle.animate.rotate(3.14))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "YELLOW",
+      "action": "rotate",
+      "parameters": {
+        "angle": 3.14
+      }
+    },
+    "output": "text = Text(\"YELLOW Text\", color=YELLOW)\nself.play(text.animate.rotate(3.14))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "YELLOW",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "square = Square(color=YELLOW)\nself.play(square.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "YELLOW",
+      "action": "move_right",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "triangle = Triangle(color=YELLOW)\nself.play(triangle.animate.shift(RIGHT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(square.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "ORANGE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 1.57
+      }
+    },
+    "output": "square = Square(color=ORANGE)\nself.play(square.animate.rotate(1.57))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "BLUE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "circle = Circle(color=BLUE)\nself.play(circle.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "square = Square(color=GREEN)\nself.play(square.animate.shift(LEFT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "rotate",
+      "parameters": {
+        "angle": 0.785
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.rotate(0.785))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 3.14
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.rotate(3.14))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "PURPLE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "circle = Circle(color=PURPLE)\nself.play(circle.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "ORANGE",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "square = Square(color=ORANGE)\nself.play(Create(square))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "YELLOW",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "circle = Circle(color=YELLOW)\nself.play(circle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "text = Text(\"BLUE Text\", color=BLUE)\nself.play(text.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "YELLOW",
+      "action": "create",
+      "parameters": {
+        "content": "YELLOW text"
+      }
+    },
+    "output": "text = Text(\"YELLOW text\", color=YELLOW)\nself.play(Create(text))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "rotate",
+      "parameters": {
+        "angle": 3.14
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.rotate(3.14))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "move_left",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(triangle.animate.shift(LEFT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "RED",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "triangle = Triangle(color=RED)\nself.play(triangle.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "PURPLE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 2.0
+      }
+    },
+    "output": "circle = Circle(color=PURPLE)\nself.play(circle.animate.scale(2.0))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "RED",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "square = Square(color=RED)\nself.play(Create(square))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "BLUE",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "triangle = Triangle(color=BLUE)\nself.play(triangle.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "GREEN",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "triangle = Triangle(color=GREEN)\nself.play(Create(triangle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "BLUE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.2
+      }
+    },
+    "output": "circle = Circle(color=BLUE)\nself.play(circle.animate.scale(1.2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "RED",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "circle = Circle(color=RED)\nself.play(circle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "PURPLE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "square = Square(color=PURPLE)\nself.play(square.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "BLUE",
+      "action": "move_left",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "square = Square(color=BLUE)\nself.play(square.animate.shift(LEFT*2))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "square",
+      "color": "ORANGE",
+      "action": "scale_up",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "square = Square(color=ORANGE)\nself.play(square.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "YELLOW",
+      "action": "move_right",
+      "parameters": {
+        "distance": 1
+      }
+    },
+    "output": "text = Text(\"YELLOW Text\", color=YELLOW)\nself.play(text.animate.shift(RIGHT*1))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "YELLOW",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "circle = Circle(color=YELLOW)\nself.play(circle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "triangle",
+      "color": "ORANGE",
+      "action": "create",
+      "parameters": {}
+    },
+    "output": "triangle = Triangle(color=ORANGE)\nself.play(Create(triangle))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "YELLOW",
+      "action": "scale_down",
+      "parameters": {
+        "scale": 1.5
+      }
+    },
+    "output": "circle = Circle(color=YELLOW)\nself.play(circle.animate.scale(1.5))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "PURPLE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 3
+      }
+    },
+    "output": "circle = Circle(color=PURPLE)\nself.play(circle.animate.shift(RIGHT*3))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "text",
+      "color": "BLUE",
+      "action": "create",
+      "parameters": {
+        "content": "BLUE text"
+      }
+    },
+    "output": "text = Text(\"BLUE text\", color=BLUE)\nself.play(Create(text))\nself.wait(2)"
+  },
+  {
+    "input": {
+      "type": "circle",
+      "color": "BLUE",
+      "action": "move_right",
+      "parameters": {
+        "distance": 2
+      }
+    },
+    "output": "circle = Circle(color=BLUE)\nself.play(circle.animate.shift(RIGHT*2))\nself.wait(2)"
+  }
+]
